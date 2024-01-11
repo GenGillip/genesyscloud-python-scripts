@@ -8,4 +8,4 @@ You also need to know the URL Region your org is in, example is mypurecloud.com 
 
 
 Python 3.6 and Above
-Will need to install the SDK dependecy --> pip install PureCloudPlatformClientV2
+Will need to install the SDK dependency --> pip install PureCloudPlatformClientV2
