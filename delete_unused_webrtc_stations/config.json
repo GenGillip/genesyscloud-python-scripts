@@ -1,0 +1,6 @@
+{
+    "clientId": "OAUTH_CLIENTID",
+    "clientSecret": "OAUTH_CLIENTSECRET",
+    "region": "ORG_REGION",
+    "orgName": "ORG_SHORTNAME"
+}
