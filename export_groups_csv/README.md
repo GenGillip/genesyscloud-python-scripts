@@ -1,11 +1,6 @@
-# genesyscloud-python-scripts
-Common python scripts that I have built
+# Genesys Cloud Groups Export Tool
 
-
-config.js
-Each python app uses the config.js in the same directory to be able to authenticate with the Genesys Cloud Org.  The SDK uses Client Credentials configuration, if you need help creating the oAuth, that can be found here --> https://developer.genesys.cloud/authorization/platform-auth/guides/oauth/module-1-client-credentials.
-You also need to know the URL Region your org is in, example is mypurecloud.com or usw2.pure.cloud.  The full list can be found here --> https://developer.genesys.cloud/platform/api/
-
+A Python utility that exports Genesys Cloud groups and their associated roles and divisions to a CSV file.
 
 ## Prerequisites
 
@@ -97,6 +92,12 @@ Replace:
    ```
    python3 main.py
    ```
+
+The script will:
+1. Authenticate with Genesys Cloud
+2. Retrieve all groups in your organization
+3. For each group, retrieve its assigned roles and divisions
+4. Export the data to a CSV file named `Groups_Output_YYYY-MM-DD_HH-MM-SS.csv`
 
 ## Troubleshooting
 

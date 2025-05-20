@@ -1,0 +1,6 @@
+{
+    "clientId": "your-client-id",
+    "clientSecret": "your-client-secret",
+    "region": "your-region-domain",
+    "orgName": "your-org-name"
+}
