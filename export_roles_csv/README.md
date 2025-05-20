@@ -15,8 +15,8 @@ A Python utility that exports Genesys Cloud roles and their permissions to a CSV
 2. Open Command Prompt or PowerShell
 3. Clone the repository:
    ```
-   git clone https://github.com/yourusername/export_users_csv.git
-   cd export_users_csv_v2
+   git clone https://github.com/yourusername/genesyscloud-python-scripts.git
+   cd project
    ```
    
    Alternatively, download and extract the ZIP file from the repository
@@ -37,8 +37,8 @@ A Python utility that exports Genesys Cloud roles and their permissions to a CSV
 
 3. Clone the repository:
    ```
-   git clone https://github.com/yourusername/export_users_csv.git
-   cd export_users_csv_v2
+   git clone https://github.com/yourusername/genesyscloud-python-scripts.git
+   cd project
    ```
    
    Alternatively, download and extract the ZIP file from the repository
