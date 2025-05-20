@@ -57,7 +57,7 @@ Create a `config.json` file in the same directory as the script with the followi
     "clientId": "your-client-id",
     "clientSecret": "your-client-secret",
     "region": "your-region-domain",
-    "orgName": "your-org-name" // orgName NOT mandatory
+    "orgName": "your-org-name"
 }
 ```
 
@@ -65,7 +65,7 @@ Replace:
 - `your-client-id` with your Genesys Cloud OAuth client ID
 - `your-client-secret` with your Genesys Cloud OAuth client secret
 - `your-region-domain` with your Genesys Cloud region domain (e.g., `mypurecloud.com`, `usw2.pure.cloud`, etc.)
-- `your-org-name` with your organization name
+- `your-org-name` with your organization name ** NOT Required **
 
 ## Usage
 
@@ -73,7 +73,7 @@ Replace:
 
 1. Navigate to the script directory in Command Prompt or PowerShell:
    ```
-   cd path\to\export_users_csv_v2
+   cd path\to\project
    ```
 
 2. Run the script:
@@ -85,7 +85,7 @@ Replace:
 
 1. Navigate to the script directory in Terminal:
    ```
-   cd path/to/export_users_csv_v2
+   cd path/to/project
    ```
 
 2. Run the script:
